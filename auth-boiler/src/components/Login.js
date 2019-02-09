@@ -7,8 +7,13 @@ class Login extends Component {
     return (
       
       <div className="App">
-      <h1>this is the LOGIN page</h1>
+      <h1> LOGIN to your account </h1>
+      <form className="form"> 
+          
+          Email <input className="form-control" type="text" id="email" name="email"/>
+          Password <input className="form-control" type="text" id="password" name="password"/>
 
+          </form>
         
        
       </div>
