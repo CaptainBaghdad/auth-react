@@ -7,7 +7,13 @@ class Register extends Component {
     return (
       
       <div className="App">
-      <h1>this is the Register page</h1>
+      <h1>Register</h1>
+      <form> 
+          Name <input type="text" id="name" name="name"/>
+          Email <input type="text" id="email" name="email"/>
+          Password <input type="text" id="password" name="password"/>
+
+          </form>
 
         
        

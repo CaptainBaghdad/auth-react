@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../css/home.css';
+import {Link} from 'react-router-dom';
 
 
 
@@ -6,12 +8,18 @@ class Home extends Component {
   render() {
     return (
       
-      <div className="App">
-      <h1>this is the Home page</h1>
+     
+      
+      <nav>
+          <div className="main-nav">
+          <Link to="/login" className="login-link">login</Link>
+          <Link to="/register" className="register-link">Register</Link>
+          </div>
+      </nav>
 
         
        
-      </div>
+     
       
     );
 

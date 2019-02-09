@@ -1,0 +1,15 @@
+.main-nav{
+    background:skyblue;
+    height:125px;
+    width:100%;
+}
+
+.login-link{
+    margin-right: 40px;
+    float:right;
+}
+
+.register-link{
+    margin-right: 40px;
+    float:right;
+}
