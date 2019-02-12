@@ -1,0 +1,17 @@
+body{
+    background: #525456;
+  text-shadow: 0em;
+  color: black;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.login-container{
+    background:white;
+    height:300px;
+    width: 50%;
+    margin-top: 125px;;
+}

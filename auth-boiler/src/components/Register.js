@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/register.css';
+import {Link} from 'react-router-dom';
 
 
 
@@ -67,11 +68,12 @@ class Register extends Component {
           Name <input onChange={this.handleChange} className="form-control" type="text" id="name" name="name"/> <br/>
           Email <input onChange={this.handleChange} className="form-control" type="text" id="email" name="email"/> <br/>
           Password <input onChange={this.handleChange} className="form-control" type="text" id="password" name="password"/><br/> <br/> <br/> <br/>
-            <input type="submit" value="Submit" className="form-control btn btn-success"/>
+            <input type="submit" value="Submit" className="form-control btn btn-info"/>
           </form>
 
         
-      
+      <h2>Log in instead?</h2>
+      <Link exact to="/login"> Login</Link>
       </div>
       </center>
     );
